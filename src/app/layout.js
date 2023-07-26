@@ -11,13 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header>
-          <h1>This is Header</h1>
-        </header>
-        {children}
-        <footer>
-          <p>This is Footer</p>
-        </footer>
+        <div className=' min-h-screen'>
+          {children}
+        </div>
       </body>
     </html>
   )
